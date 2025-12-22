@@ -14,7 +14,7 @@ Email: ${email}%0A
 Motivo: ${motivo}%0A
 Tipo: ${tipo}`;
 
-  const numero = '55XXXXXXXXXX'; // coloque o número da Ana aqui
+  const numero = '55XXXXXXXXXX'; // coloque o número
 
   window.open(`https://wa.me/${numero}?text=${mensagem}`, '_blank');
 });
