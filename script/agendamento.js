@@ -14,7 +14,8 @@ Email: ${email}%0A
 Motivo: ${motivo}%0A
 Tipo: ${tipo}`;
 
-  const numero = '55XXXXXXXXXX'; // coloque o número
+  const numero = '5511976780584';
 
   window.open(`https://wa.me/${numero}?text=${mensagem}`, '_blank');
+
 });
